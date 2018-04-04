@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1522803058935.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "280807720",
+    "id" : "461A7CFD",
+    "lastKnownWriteTime" : 1522810035,
+    "last_content_update" : 1522810035116,
+    "path" : "~/GitHub/aut-postgrads-2018-04/20180426-aut-presentation.Rmd",
+    "project_path" : "20180426-aut-presentation.Rmd",
+    "properties" : {
+        "cursorPosition" : "141,3",
+        "scrollLine" : "126",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
