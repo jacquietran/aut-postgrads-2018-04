@@ -197,6 +197,14 @@ Stuart Lee & Prof Di Cook (*Visiphilia* blog), ['Rookie mistakes and how to fix 
 
 Cole Nussbaumer Knaflic, [*Storytelling With Data* blog](http://www.storytellingwithdata.com/)
 
+Tubik Studio, ['Color theory: Brief guide for designers'](https://uxplanet.org/color-theory-brief-guide-for-designers-76e11c57eaa)
+
+Harshita Arora, ['An intro to color theory: How to combine colors and set the mood of your designs'](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)
+
+Color Matters, ['Basic color theory'](https://www.colormatters.com/color-and-design/basic-color-theory)
+
+Sam Hampton-Smith (*Creative Bloq* blog), ['How to master colour theory'](https://www.creativebloq.com/colour/colour-theory-11121290)
+
 ---
 
 ## Tools, resources, and guides
