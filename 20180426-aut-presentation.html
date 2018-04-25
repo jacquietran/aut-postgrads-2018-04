@@ -3,7 +3,7 @@
   <head>
     <title>Data visualisation in sport</title>
     <meta charset="utf-8">
-    <meta name="author" content="Dr Jacquie Tran (Senior Insights Researcher, HPSNZ)" />
+    <meta name="author" content="Dr Jacquie Tran | @jacquietran | 26 April 2018" />
     <link href="libs/remark-css/default.css" rel="stylesheet" />
     <link rel="stylesheet" href="jt-theme.css" type="text/css" />
   </head>
@@ -12,8 +12,7 @@
 class: center, middle, inverse, title-slide
 
 # Data visualisation in sport
-### Dr Jacquie Tran (Senior Insights Researcher, HPSNZ)
-### <span class="citation">@jacquietran</span> | 26 April 2018
+### Dr Jacquie Tran | <span class="citation">@jacquietran</span> | 26 April 2018
 
 ---
 
@@ -86,48 +85,282 @@ class: center, middle
 ---
 class: center, middle, inverse
 
-# 'Can you graph it for me?'
-
----
-
-## The power of an effective visualisation
-
-.large[Complex ideas communicated with clarity, precision, and efficiency]
-
---
-
-.large[Gives the viewer the greatest number of ideas in the shortest time with the least 'ink' in the smallest space]
-
---
-
-.large[Tells the truth about the data]
-
---
-
-.large[Induces the viewer to think about its substance]
-
---
-
-.large[Encourages the eye to compare different pieces of data]
-
---
-
-.large[Reveals the data at several levels of detail]
-
-_See: [Books by Edward Tufte](https://www.edwardtufte.com/tufte/books_vdqi)_
+## What makes visualisations effective?
 
 ---
 class: center, middle
 
+'Complex ideas communicated with clarity, precision, and efficiency'
+
+&lt;img src="images/dirk-shot-chart.jpg" width="600px" /&gt;
+
+.small[Source: [Kirk Goldsberry](https://www.twitter.com/kirkgoldsberry)]
+
+---
+class: center, middle
+
+'Gives the viewer the greatest number of ideas in the shortest time with the least 'ink' in the smallest space'
+
+&lt;img src="images/allbreaks-alleras-allgames.png" width="600px" /&gt;
+
+.small[Source: [The Arc Footy, 'When should footy fans lose hope?'](https://thearcfooty.com/2016/09/21/when-should-footy-fans-lose-hope/) ]
+
+---
+class: center, middle
+
+'Tells the truth about the data'
+
+&lt;img src="images/tennis-serve.png" width="800px" /&gt;
+
+.small[Source: [Roberts, Ward, and White for the New York Times, 'What it's like to face a 150 m.p.h. tennis serve'](https://www.nytimes.com/interactive/2015/07/10/sports/tennis/facing-a-150-mph-tennis-serve.html)]
+
+---
+class: center, middle
+
+'Induces the viewer to think about its substance'
+
+&lt;img src="images/swimtech.png" width="800px" /&gt;
+
+.small[Source: [Andrews, Berkowitz, Flaherty, and Lindeman for The Washington Post, 'Dressed for a world record?'](http://www.washingtonpost.com/wp-srv/special/sports/olympic-swimming-dressed-for-a-world-record/)]
+
+---
+class: center, middle
+
+'Encourages the eye to compare different pieces of data'
+
+&lt;img src="images/morris-ledecky-2.png" width="400px" /&gt;
+
+.small[Source: [Benjamin Morris for FiveThirtyEight, 'Katie Ledecky is the present and the future of swimming](https://fivethirtyeight.com/features/katie-ledecky-is-the-present-and-the-future-of-swimming/)]
+
+---
+class: center, middle
+
+'Reveals the data at several levels of detail'
+
 &lt;img src="images/Serena-Williams-GOAT.png" width="800px" /&gt;
 
-_Source: [Kyle Kim &amp; LA Times Staff, 'Greatest of all time'](http://www.latimes.com/projects/la-sp-serena-williams-greatest-all-time/)_
+.small[Source: [Kyle Kim &amp; Los Angeles Times Staff, 'Greatest of all time'](http://www.latimes.com/projects/la-sp-serena-williams-greatest-all-time/)]
+
+---
+class: center, middle, inverse
+
+# How do people see data?
+
+---
+
+## Aspects of the visualisation
+
+.small[Source: [Seeing Data research](http://seeingdata.org/)]
+
+.large[Subject matter]
+
+--
+
+.large[Trustworthiness of the source / location]
+
+--
+
+.large[Visual elements used]
+
+---
+
+## The viewer's state and circumstances
+
+.small[Source: [Seeing Data research](http://seeingdata.org/)]
+
+.large[Beliefs and opinions]
+
+--
+
+.large[Time]
+
+--
+
+.large[Emotions]
+
+--
+
+.large[Confidence]
+
+---
+
+## The viewer's skills
+
+.small[Source: [Seeing Data research](http://seeingdata.org/)]
+
+.large[Language skills]
+
+--
+
+.large[Mathematical / statistical skills and visual literacy]
+
+--
+
+.large[Computer skills]
+
+--
+
+.large[Critical thinking skills]
+
+---
+class: center, middle, inverse
+
+# Gestalt principles of perception
+## A very brief introduction
+
+---
+
+## Similarity
+
+.large[Graphical elements with shared visual properties are seen to belong to the same group.]
+
+--
+
+&lt;div align="center"&gt;
+&lt;img src="images/gestalt-similarity.png" width="400px" /&gt;
+&lt;br /&gt;
+.small[Source: [Elijah Meeks, 'Gestalt principles for data visualization: Similarity, proximity &amp; enclosure'](https://emeeks.github.io/gestaltdataviz/section1.html)]
+&lt;/div&gt;
+
+---
+
+## Proximity
+
+.large[Objects that are close to each other tend to be perceived together in a group.]
+
+--
+
+&lt;div align="center"&gt;
+&lt;img src="images/gestalt-enclosure.png" width="400px" /&gt;
+&lt;br /&gt;
+.small[Source: [Elijah Meeks, 'Gestalt principles for data visualization: Similarity, proximity &amp; enclosure'](https://emeeks.github.io/gestaltdataviz/section1.html)]
+
+---
+
+## Enclosure
+
+.large[Enclosing or surrounding a group of related elements with a border is a powerful indicator of grouping.]
+
+--
+
+&lt;div align="center"&gt;
+&lt;img src="images/gestalt-proximity.png" width="400px" /&gt;
+&lt;br /&gt;
+.small[Source: [Elijah Meeks, 'Gestalt principles for data visualization: Similarity, proximity &amp; enclosure'](https://emeeks.github.io/gestaltdataviz/section1.html)]
+
+---
+class: center, middle, inverse
+
+# Basic colour theory
+
+---
+class: center
+
+## The colour wheel
+
+&lt;div align="center"&gt;
+&lt;img src="images/colour-wheel.png" width="400px" /&gt;
+&lt;br /&gt;
+.small[Source: [Tubik Studio, 'Color theory: Brief guide for designers'](https://uxplanet.org/color-theory-brief-guide-for-designers-76e11c57eaa)]
+&lt;/div&gt;
+
+---
+class: center
+
+## Colour models
+
+&lt;img src="images/rgb-cmyk.jpg" width="400px" /&gt;
+
+.small[Source: [Tubik Studio, 'Color theory: Brief guide for designers'](https://uxplanet.org/color-theory-brief-guide-for-designers-76e11c57eaa)]
+
+---
+class: center
+
+## Colour harmony: Complementary
+
+--
+
+Colours that are opposite each other on the colour wheel.
+
+&lt;img src="images/complementary-colours.png" width="200px" /&gt;
+
+.small[Source: [Tiger Color, 'Color harmonies'](http://www.tigercolor.com/color-lab/color-theory/color-harmonies.htm)]
+
+--
+
+High contrast, attention-grabbing, can be jarring, poor for text.
+
+---
+class: center
+
+## Colour harmony: Analogous
+
+Colours that are next to each other on the colour wheel.
+
+&lt;img src="images/analogous-colours.png" width="200px" /&gt;
+
+.small[Source: [Tiger Color, 'Color harmonies'](http://www.tigercolor.com/color-lab/color-theory/color-harmonies.htm)]
+
+--
+
+Usually considered pleasing to the eye. When using analogous colour schemes, ensure sufficient contrast between the selected colours.
+
+---
+class: center
+
+## Colour harmony: Triad
+
+Triadic colour schemes draw from colours that are evenly spaced around the colour wheel.
+
+&lt;img src="images/triad-colours.png" width="200px" /&gt;
+
+.small[Source: [Tiger Color, 'Color harmonies'](http://www.tigercolor.com/color-lab/color-theory/color-harmonies.htm)]
+
+--
+
+Tends to be seen as vibrant, irrespective of colour saturation.
+
+---
+class: center
+
+## Colour harmony: Split-complementary
+
+Consists of the base colour, and the two colours adjacent to its complement.
+
+&lt;img src="images/split-complementary-colours.png" width="200px" /&gt;
+
+.small[Source: [Tiger Color, 'Color harmonies'](http://www.tigercolor.com/color-lab/color-theory/color-harmonies.htm)]
+
+--
+
+Also seen as vibrant, a more modern apperance than the triadic colour scheme.
+
+---
+
+## Colourblind-friendly palettes
+
+&lt;img src="images/viz-palette.png" width="800px" /&gt;
+
+.small[Source: [Viz Palette](http://projects.susielu.com/viz-palette)]
+
+---
+class: center, middle, inverse
+
+# 'Can you graph it for me?'
 
 ---
 
 ## Doing data vis in sport
 
-.large[Articulate the end-user's needs - this is most of the work!]
+.large[Articulate the end-user's needs]
+
+--
+
+.large[- Ask questions that help to position the value of your data vis work]
+
+--
+
+.large[- Listen to what they mean, it's not always what they say]
 
 --
 
@@ -150,52 +383,14 @@ _Source: [Kyle Kim &amp; LA Times Staff, 'Greatest of all time'](http://www.lati
 .large[Seek out and embrace feedback]
 
 ---
+class: center, middle
 
-## How do people see data?
-
---
-
-.large[Aspects of the **visualisation**]
-
-Subject matter, trustworthiness of the source / location, visual elements used
-
---
-
-.large[The **viewer's state and circumstances**]
-
-Beliefs and opinions, time, emotions, confidence
-
---
-
-.large[The **viewer's skills**]
-
-Language skills, mathematical and visual literacy skills, computer skills, critical thinking skills
-
-_Source: [Seeing Data research](http://seeingdata.org/)_
-
----
-class: center, middle, inverse
-
-# Visualisation principles
-
----
-
-## Gestalt principles
-
----
-
-## Colour theory
-
----
-class: center, middle, inverse
-
-# Visualising sport data
-Worked examples
+&lt;img src="images/nothing-is-original.jpg" width="600px" /&gt;
 
 ---
 class: center, middle
 
-&lt;img src="images/.png" width="800px" /&gt;
+&lt;img src="images/thank-you-362164_1920.jpg" width="600px" /&gt;
 
 [https://github.com/jacquietran/aut-postgrads-2018-04](https://github.com/jacquietran/aut-postgrads-2018-04)
 
@@ -231,9 +426,27 @@ Nancy Duarte, ['Resonate'](http://resonate.duarte.com/#!page0)
 
 ---
 
-## Blogs and blog posts
+## Blog posts
+
+### Visual information design and colour theory
+
+Steven Bradley (*Smashing Magazine*), ['Design principles: Visual perception and the principles of Gestalt](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)
 
 Elijah Meeks, ['Gestalt principles for data visualisation'](https://medium.com/@Elijah_Meeks/gestalt-principles-for-data-visualization-59f18f20bd40)
+
+Tubik Studio, ['Color theory: Brief guide for designers'](https://uxplanet.org/color-theory-brief-guide-for-designers-76e11c57eaa)
+
+Harshita Arora, ['An intro to color theory: How to combine colors and set the mood of your designs'](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)
+
+Color Matters, ['Basic color theory'](https://www.colormatters.com/color-and-design/basic-color-theory)
+
+Sam Hampton-Smith (*Creative Bloq* blog), ['How to master colour theory'](https://www.creativebloq.com/colour/colour-theory-11121290)
+
+---
+
+## Blog posts
+
+### Data visualisation methods and techniques
 
 Susie Lu, ['Storytelling in dashboards'](http://susielu.com/data-viz/storytelling-in-dashboards)
 
@@ -245,13 +458,7 @@ Stuart Lee &amp; Prof Di Cook (*Visiphilia* blog), ['Rookie mistakes and how to 
 
 Cole Nussbaumer Knaflic, [*Storytelling With Data* blog](http://www.storytellingwithdata.com/)
 
-Tubik Studio, ['Color theory: Brief guide for designers'](https://uxplanet.org/color-theory-brief-guide-for-designers-76e11c57eaa)
-
-Harshita Arora, ['An intro to color theory: How to combine colors and set the mood of your designs'](https://medium.freecodecamp.org/an-intro-to-color-theory-how-to-combine-colors-and-set-the-mood-of-your-designs-79bf5a45b3d)
-
-Color Matters, ['Basic color theory'](https://www.colormatters.com/color-and-design/basic-color-theory)
-
-Sam Hampton-Smith (*Creative Bloq* blog), ['How to master colour theory'](https://www.creativebloq.com/colour/colour-theory-11121290)
+Nathan Yau (*Flowing Data* blog), ['Real chart rules to follow'](https://flowingdata.com/2015/08/11/real-chart-rules-to-follow/)
 
 ---
 
