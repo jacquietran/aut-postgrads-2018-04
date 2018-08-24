@@ -306,9 +306,9 @@ knitr::include_graphics("images/gestalt-similarity.png")
 --
 
 <div align="center">
-``` {r visExampleGestaltEnclosure, out.width = "400px", echo = FALSE}
+``` {r visExampleGestaltProximity, out.width = "400px", echo = FALSE}
 
-knitr::include_graphics("images/gestalt-enclosure.png")
+knitr::include_graphics("images/gestalt-proximity.png")
 
 ```
 <br />
@@ -323,9 +323,9 @@ knitr::include_graphics("images/gestalt-enclosure.png")
 --
 
 <div align="center">
-``` {r visExampleGestaltProximity, out.width = "400px", echo = FALSE}
+``` {r visExampleGestaltEnclosure, out.width = "400px", echo = FALSE}
 
-knitr::include_graphics("images/gestalt-proximity.png")
+knitr::include_graphics("images/gestalt-enclosure.png")
 
 ```
 <br />
